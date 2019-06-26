@@ -4,7 +4,7 @@ This is a template for student projects.
 
 We use [GitHub Classroom](https://classroom.github.com) to administrate our student projects. So, please be sure to sign up for a [GitHub Account](http://github.com). Please use the [Jupyter Notebook](https://github.com/HumanCapitalAnalysis/student-project-template/blob/master/student_project.ipynb) to work on your project. You can look at this example on [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/HumanCapitalAnalysis/student-project-template/master?filepath=student_project.ipynb). To ensure full reproducibility of your project, be sure to maintain [Travis CI](https://travis-ci.org) as your continuous integration service.
 
-An introductory tutorial for [conda](https://conda.io) and [Travis-CI](https://docs.travis-ci.com/) is provided [here](https://github.com/HumanCapitalAnalysis/student-project-template/blob/master/tutorial-conda-travis.ipynb).
+An introductory tutorial for [conda](https://conda.io) and [Travis-CI](https://docs.travis-ci.com/) is provided [here](https://github.com/HumanCapitalAnalysis/student-project-template/blob/master/tutorial_conda_travis.ipynb).
 
 ## Structure
 
