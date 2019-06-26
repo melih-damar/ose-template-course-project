@@ -4,6 +4,23 @@ This is a template for student projects.
 
 We use [GitHub Classroom](https://classroom.github.com) to administrate our student projects. So, please be sure to sign up for a [GitHub Account](http://github.com). Please use the [Jupyter Notebook](https://github.com/HumanCapitalAnalysis/student-project-template/blob/master/student_project.ipynb) to work on your project. You can look at this example on [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/HumanCapitalAnalysis/student-project-template/master?filepath=student_project.ipynb). To ensure full reproducibility of your project, be sure to maintain [Travis CI](https://travis-ci.org) as your continuous integration service.
 
+## Structure
+
+A typical student project has the following structure:
+
+* presentation of baseline article with proper citation and brief summary
+
+* using causal graphs to illustrate the authors' identification strategy
+
+* replication of selected key results
+
+* critical assessment of quality
+
+* independent contribution, e.g. additional external evidence, robustness checks, visualization
+
+There might be good reason to deviate from this structure. If so, please simply document your reasoning and go ahead.
+
+
 ## Frequently asked questions and answers
 
 * *Where can I look for publications that provide the data behind their research?* Some journals provide the data for their published articles as data supplements directly on their website. In addition, the [Replication Wiki](http://replication.uni-goettingen.de/wiki/index.php/Main_Page)  and the [Harvard Dataverse](https://dataverse.harvard.edu) compile a lot such information.
