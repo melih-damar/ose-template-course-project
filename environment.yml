@@ -8,5 +8,6 @@ dependencies:
 - matplotlib
 - seaborn
 - scipy
+- pip
 - pip:
   - grmpy
