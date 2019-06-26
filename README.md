@@ -20,7 +20,7 @@ A typical student project has the following structure:
 
 * independent contribution, e.g. additional external evidence, robustness checks, visualization
 
-There might be good reason to deviate from this structure. If so, please simply document your reasoning and go ahead.
+There might be good reason to deviate from this structure. If so, please simply document your reasoning and go ahead. Please use the opportunity to review other student projects for some inspirations as well.
 
 
 ## Frequently asked questions and answers
