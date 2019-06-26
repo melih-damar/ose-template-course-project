@@ -9,5 +9,6 @@ dependencies:
 - seaborn
 - scipy
 - pip
+- jupyterlab
 - pip:
   - grmpy
