@@ -2,7 +2,7 @@
 
 This is a template for student projects. We use [GitHub Classroom](https://classroom.github.com) to administrate our student projects and so you need to sign up for a [GitHub Account](http://github.com). You can use the [Jupyter Notebook](https://github.com/HumanCapitalAnalysis/student-project-template/blob/master/student_project.ipynb) to work on your project.
 
-Please ensure that a brief description of your project is included in the [README.md](https://github.com/HumanCapitalAnalysis/student-project-template/blob/master/README.md), which provides a proper citation of your baseline article. Also, please set up the following badge that allows to easily access your project notebook.
+Please ensure that a brief description of your project is included in the [README.md](https://github.com/HumanCapitalAnalysis/student-project-template/blob/master/README.md), which provides a proper citation of your baseline article. Also, please set up the following badges that allow to easily access your project notebook.
 
 <a href="https://nbviewer.jupyter.org/github/HumanCapitalAnalysis/student-project-template/blob/master/student_project.ipynb"
    target="_parent">
