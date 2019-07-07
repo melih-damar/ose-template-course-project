@@ -10,7 +10,6 @@ Please ensure that a brief description of your project is included in the [READM
   src="https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.png"
       width="109" height="20">
 </a>
-
 <a href="https://mybinder.org/v2/gh/HumanCapitalAnalysis/student-project-template/master?filepath=student_project.ipyn"
     target="_parent">
     <img align="center"
