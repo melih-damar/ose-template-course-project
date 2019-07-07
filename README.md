@@ -19,6 +19,8 @@ Please ensure that a brief description of your project is included in the [READM
 
 To ensure full reproducibility of your project, please try to set up a [Travis CI](https://travis-ci.org) as your continuous integration service. An introductory tutorial for [conda](https://conda.io) and [Travis-CI](https://docs.travis-ci.com/) is provided [here](https://github.com/HumanCapitalAnalysis/student-project-template/blob/master/tutorial_conda_travis.ipynb). While not at all mandatory, setting up a proper continuous integration workflow is an extra credit that can improve the final grade.
 
+[![Build Status](https://travis-ci.org/HumanCapitalAnalysis/student-project-template.svg?branch=master)](https://travis-ci.org/HumanCapitalAnalysis/student-project-template)
+
 ## Structure
 
 A typical student project has the following structure:
@@ -41,4 +43,4 @@ There might be good reason to deviate from this structure. If so, please simply 
 
 * *What are other useful resources for research data?* There is a tremendous amount of data available online. For example, MDRC provides a host of data files for public use [here](https://www.mdrc.org/available-public-use-files) from the evaluation of public policy initiatives.
 
-[![Build Status](https://travis-ci.org/HumanCapitalAnalysis/student-project-template.svg?branch=master)](https://travis-ci.org/HumanCapitalAnalysis/student-project-template) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](HumanCapitalAnalysis/student-project-template/blob/master/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](HumanCapitalAnalysis/student-project-template/blob/master/LICENSE)
