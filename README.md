@@ -2,6 +2,10 @@
 
 This is a template for student projects. We use [GitHub Classroom](https://classroom.github.com) to administrate our student projects and so you need to sign up for a [GitHub Account](http://github.com). You can use the [Jupyter Notebook](https://github.com/HumanCapitalAnalysis/student-project-template/blob/master/student_project.ipynb) to work on your project.
 
+The notebook contains an example replication of a paper by Carneiro & al. (2011) who study the marginal returns to a college education in the United States using the National Longitudinal Survey of Youth 1979 (NLSY79).
+
+* Carneiro, P., Heckman, J. J., & Vytlacil, E. J. (2011). [Estimating marginal returns to education.](https://www.aeaweb.org/articles?id=10.1257/aer.101.6.2754) *American Economic Review, 101*(6), 2754–81.
+
 Please ensure that a brief description of your project is included in the [README.md](https://github.com/HumanCapitalAnalysis/student-project-template/blob/master/README.md), which provides a proper citation of your baseline article. Also, please set up the following badges that allow to easily access your project notebook.
 
 <a href="https://nbviewer.jupyter.org/github/HumanCapitalAnalysis/student-project-template/blob/master/student_project.ipynb"
@@ -23,7 +27,7 @@ To ensure full reproducibility of your project, please try to set up a [Travis C
 
 ## Structure
 
-A typical student project has the following structure:
+A typical project notebook has the following structure:
 
 * presentation of baseline article with proper citation and brief summary
 
