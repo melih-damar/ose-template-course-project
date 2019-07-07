@@ -1,21 +1,26 @@
 # Student project template
 
-This is a template for student projects.
+This is a template for student projects. We use [GitHub Classroom](https://classroom.github.com) to administrate our student projects and so you need to sign up for a [GitHub Account](http://github.com). You can use the [Jupyter Notebook](https://github.com/HumanCapitalAnalysis/student-project-template/blob/master/student_project.ipynb) to work on your project.
 
-We use [GitHub Classroom](https://classroom.github.com) to administrate our student projects. So, please be sure to sign up for a [GitHub Account](http://github.com). Please use the [Jupyter Notebook](https://github.com/HumanCapitalAnalysis/student-project-template/blob/master/student_project.ipynb) to work on your project. You can look at this example on [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/HumanCapitalAnalysis/student-project-template/master?filepath=student_project.ipynb). To ensure full reproducibility of your project, be sure to maintain [Travis CI](https://travis-ci.org) as your continuous integration service.
+Please ensure that a brief description of your project is included in the [README.md](https://github.com/HumanCapitalAnalysis/student-project-template/blob/master/README.md), which provides a proper citation of your baseline article. Also, please set up the following badge that allows to easily access your project notebook.
 
-An introductory tutorial for [conda](https://conda.io) and [Travis-CI](https://docs.travis-ci.com/) is provided [here](https://github.com/HumanCapitalAnalysis/student-project-template/blob/master/tutorial_conda_travis.ipynb). While not at all mandatory, setting up a proper continous integration worfklow is an extra credit that can improve the final grade.
-
-## Structure
-
-Please ensure that a brief description of your project is included in the [README.md](https://github.com/HumanCapitalAnalysis/student-project-template/blob/master/README.md), which includes a proper citation of your baseline article. Also, please provide the following badge that allows to easily access your project notebook.
-
-<a href="https://nbviewer.jupyter.org/github/HumanCapitalAnalysis/student-project-timmens/blob/master/causal_tree/causal_tree.ipynb"
+<a href="https://nbviewer.jupyter.org/github/HumanCapitalAnalysis/student-project-template/blob/master/student_project.ipynb"
    target="_parent">
    <img align="center"
   src="https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.png"
       width="109" height="20">
 </a>
+
+<a href="https://mybinder.org/v2/gh/HumanCapitalAnalysis/student-project-template/master?filepath=student_project.ipyn"
+    target="_parent">
+    <img align="center"
+       src="https://mybinder.org/badge_logo.svg"
+       width="109" height="20">
+</a>
+
+To ensure full reproducibility of your project, please try to set up a [Travis CI](https://travis-ci.org) as your continuous integration service. An introductory tutorial for [conda](https://conda.io) and [Travis-CI](https://docs.travis-ci.com/) is provided [here](https://github.com/HumanCapitalAnalysis/student-project-template/blob/master/tutorial_conda_travis.ipynb). While not at all mandatory, setting up a proper continuous integration workflow is an extra credit that can improve the final grade.
+
+## Structure
 
 A typical student project has the following structure:
 
@@ -30,7 +35,6 @@ A typical student project has the following structure:
 * independent contribution, e.g. additional external evidence, robustness checks, visualization
 
 There might be good reason to deviate from this structure. If so, please simply document your reasoning and go ahead. Please use the opportunity to review other student projects for some inspirations as well.
-
 
 ## Frequently asked questions and answers
 
