@@ -1,8 +1,8 @@
 # Student project template
 
-This is a template for student projects. We use [GitHub Classroom](https://classroom.github.com) to administrate our student projects and so you need to sign up for a [GitHub Account](http://github.com). You can use the [Jupyter Notebook](https://github.com/HumanCapitalAnalysis/student-project-template/blob/master/student_project.ipynb) to work on your project.
+This is a template for student projects. We use [GitHub Classroom](https://classroom.github.com) to administrate our student projects and so you need to sign up for a [GitHub Account](http://github.com).
 
-The notebook contains an example replication of a paper by Carneiro & al. (2011) who study the marginal returns to a college education in the United States using the National Longitudinal Survey of Youth 1979 (NLSY79).
+You can use the [Jupyter Notebook](https://github.com/HumanCapitalAnalysis/student-project-template/blob/master/student_project.ipynb) to work on your project. It contains an example replication of a paper by Carneiro & al. (2011) who study the marginal return to a college education in the United States using the National Longitudinal Survey of Youth 1979 (NLSY79).
 
 * Carneiro, P., Heckman, J. J., & Vytlacil, E. J. (2011). [Estimating marginal returns to education.](https://www.aeaweb.org/articles?id=10.1257/aer.101.6.2754) *American Economic Review, 101*(6), 2754–81.
 
