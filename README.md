@@ -8,6 +8,10 @@ An introductory tutorial for [conda](https://conda.io) and [Travis-CI](https://d
 
 ## Structure
 
+Please ensure that a brief description of your project is included in the [README.md](https://github.com/HumanCapitalAnalysis/student-project-template/blob/master/README.md), which includes a proper citation of your baseline article. Also, please provide the following badge that allows to easily access your project notebook.
+
+ [![nbviewer render]("https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.png)](https://nbviewer.jupyter.org/github/HumanCapitalAnalysis/student-project-template/blob/master/student_project.ipynb)
+
 A typical student project has the following structure:
 
 * presentation of baseline article with proper citation and brief summary
