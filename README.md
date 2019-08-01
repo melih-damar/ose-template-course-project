@@ -42,6 +42,8 @@ else:
 ...
 ```
 
+However, if you decide to do so, please be sure to provide an explanation in your notebook explaining why exactly this is required in your case.
+
 ## Structure of notebook
 
 A typical project notebook has the following structure:
