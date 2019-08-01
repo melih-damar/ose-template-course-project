@@ -6,6 +6,8 @@ You can use the [Jupyter Notebook](https://github.com/HumanCapitalAnalysis/stude
 
 * Carneiro, P., Heckman, J. J., & Vytlacil, E. J. (2011). [Estimating marginal returns to education.](https://www.aeaweb.org/articles?id=10.1257/aer.101.6.2754) *American Economic Review, 101*(6), 2754–81.
 
+## Project overview
+
 Please ensure that a brief description of your project is included in the [README.md](https://github.com/HumanCapitalAnalysis/student-project-template/blob/master/README.md), which provides a proper citation of your baseline article. Also, please set up the following badges that allow to easily access your project notebook.
 
 <a href="https://nbviewer.jupyter.org/github/HumanCapitalAnalysis/student-project-template/blob/master/student_project.ipynb"
@@ -21,11 +23,26 @@ Please ensure that a brief description of your project is included in the [READM
        width="109" height="20">
 </a>
 
+## Reproducibility
+
 To ensure full reproducibility of your project, please try to set up a [Travis CI](https://travis-ci.org) as your continuous integration service. An introductory tutorial for [conda](https://conda.io) and [Travis CI](https://docs.travis-ci.com/) is provided [here](https://github.com/HumanCapitalAnalysis/student-project-template/blob/master/tutorial_conda_travis.ipynb). While not at all mandatory, setting up a proper continuous integration workflow is an extra credit that can improve the final grade.
 
 [![Build Status](https://travis-ci.org/HumanCapitalAnalysis/student-project-template.svg?branch=master)](https://travis-ci.org/HumanCapitalAnalysis/student-project-template)
 
-## Structure
+In some cases you might not be able to run parts of your code on  [Travis CI](https://travis-ci.org) as, for example, the computation of results takes multiple hours. In those cases you can add the result in a file to your repository and load it in the notebook. See below for an example code.
+
+```python
+# If we are running on TRAVIS-CI we will simply load a file with existing results.
+if os.environ['TRAVIS']:
+  rslt = pkl.load(open('stored_results.pkl', 'br'))
+else:
+  rslt = compute_results()
+
+# Now we are ready for further processing.
+...
+```
+
+## Structure of notebook
 
 A typical project notebook has the following structure:
 
