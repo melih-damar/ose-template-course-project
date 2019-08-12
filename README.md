@@ -1,6 +1,6 @@
-# Student project template
+# Course project template
 
-This is a template for student projects. We use [GitHub Classroom](https://classroom.github.com) to administrate our student projects and so you need to sign up for a [GitHub Account](http://github.com).
+This is a template for course projects. We use [GitHub Classroom](https://classroom.github.com) to administrate our student projects and so you need to sign up for a [GitHub Account](http://github.com).
 
 You can use the [Jupyter Notebook](https://github.com/HumanCapitalAnalysis/student-project-template/blob/master/student_project.ipynb) to work on your project. It contains an example replication of a paper by Carneiro & al. (2011) who study the marginal return to a college education in the United States using the National Longitudinal Survey of Youth 1979 (NLSY79).
 
