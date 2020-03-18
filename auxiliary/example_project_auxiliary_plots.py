@@ -8,8 +8,6 @@ import statsmodels as sm
 from auxiliary.example_project_auxiliary_predictions import *
 from auxiliary.example_project_auxiliary_plots import *
 from auxiliary.example_project_auxiliary_tables import *
-from auxiliary.example_project_auxiliary_misc import *
-
 
 def plot_RDD_curve(df, running_variable, outcome, cutoff):
     """ Function to plot RDD curves. Function splits dataset into treated and untreated group based on running variable
