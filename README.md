@@ -2,21 +2,17 @@
 
 This is a template for course projects. We use [GitHub Classroom](https://classroom.github.com) to administrate our student projects and so you need to sign up for a [GitHub Account](http://github.com).
 
-You can use the [Jupyter Notebook](https://github.com/HumanCapitalAnalysis/template-course-project/blob/master/student_project.ipynb) to work on your project. It contains an example replication of a paper by Carneiro & al. (2011) who study the marginal return to a college education in the United States using the National Longitudinal Survey of Youth 1979 (NLSY79).
-
-* Carneiro, P., Heckman, J. J., & Vytlacil, E. J. (2011). [Estimating marginal returns to education.](https://www.aeaweb.org/articles?id=10.1257/aer.101.6.2754) *American Economic Review, 101*(6), 2754–81.
-
 ## Project overview
 
 Please ensure that a brief description of your project is included in the [README.md](https://github.com/HumanCapitalAnalysis/template-course-project/blob/master/README.md), which provides a proper citation of your baseline article. Also, please set up the following badges that allow to easily access your project notebook.
 
-<a href="https://nbviewer.jupyter.org/github/HumanCapitalAnalysis/student-project-template/blob/master/student_project.ipynb"
+<a href="https://nbviewer.jupyter.org/github/HumanCapitalAnalysis/template-course-project/blob/amageh-project-example/example_project.ipynb"
    target="_parent">
    <img align="center"
   src="https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.png"
       width="109" height="20">
 </a>
-<a href="https://mybinder.org/v2/gh/HumanCapitalAnalysis/student-project-template/master?filepath=student_project.ipyn"
+<a href="https://mybinder.org/v2/gh/HumanCapitalAnalysis/template-course-project/c411117b6348a7a192ac526f09c6e935c4beae27?filepath=example_project.ipynb"
     target="_parent">
     <img align="center"
        src="https://mybinder.org/badge_logo.svg"
@@ -59,6 +55,14 @@ A typical project notebook has the following structure:
 * independent contribution, e.g. additional external evidence, robustness checks, visualization
 
 There might be good reason to deviate from this structure. If so, please simply document your reasoning and go ahead. Please use the opportunity to review other student projects for some inspirations as well.
+
+## Project Example
+
+The notebook [example_project.ipynb](https://github.com/HumanCapitalAnalysis/template-course-project/blob/amageh-project-example/example_project.ipynb) contains an example project, a replication of the results from the following paper:
+
+* Lindo, J. M., Sanders, N. J., & Oreopoulos, P. (2010). [Ability, Gender, and Performance Standards: Evidence from Academic Probation](https://www.aeaweb.org/articles?id=10.1257/app.2.2.95). *American Economic Journal: Applied Economics*, 2(2), 95-117.
+
+Lindo et al. (2010) examine the effects of academic probation on student outcomes using a regression discontinuity design. The analysis is based on data from a large Canadian university and evaluates whether academic probation is successful in improving the performance of low scoring students. Consistent with a model of performance standards, the authors find that being placed on probation in the first year of university induces some students to drop out of school while it improves the grades of students who continue their studies. In a more general sense, academic probation can offer insights into how agents respond to negative incentives and the threat of punishment in a real-world context.
 
 ## Frequently asked questions and answers
 
