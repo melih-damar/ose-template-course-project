@@ -23,7 +23,7 @@ Please ensure that a brief description of your project is included in the [READM
 
 To ensure full reproducibility of your project, please try to set up a [Travis CI](https://travis-ci.org) as your continuous integration service. An introductory tutorial for [conda](https://conda.io) and [Travis CI](https://docs.travis-ci.com/) is provided [here](https://github.com/HumanCapitalAnalysis/template-course-project/blob/master/tutorial_conda_travis.ipynb). While not at all mandatory, setting up a proper continuous integration workflow is an extra credit that can improve the final grade.
 
-[![Continuous Integration](https://github.com/HumanCapitalAnalysis/template-course-project/workflows/Continuous%20Integration/badge.svg)](https://github.com/HumanCapitalAnalysis/template-course-project/actions)
+[![Build Status](https://travis-ci.org/HumanCapitalAnalysis/template-course-project.svg?branch=master)](https://travis-ci.org/HumanCapitalAnalysis/template-course-project)
 
 In some cases you might not be able to run parts of your code on  [Travis CI](https://travis-ci.org) as, for example, the computation of results takes multiple hours. In those cases you can add the result in a file to your repository and load it in the notebook. See below for an example code.
 
@@ -71,3 +71,4 @@ Lindo et al. (2010) examine the effects of academic probation on student outcome
 * *What are other useful resources for research data?* There is a tremendous amount of data available online. For example, MDRC provides a host of data files for public use [here](https://www.mdrc.org/available-public-use-files) from the evaluation of public policy initiatives. More generally, [Google Dataset Search](https://datasetsearch.research.google.com) allows to look for all kinds of online data. 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/HumanCapitalAnalysis/template-course-project/blob/master/LICENSE)
+[![Continuous Integration](https://github.com/HumanCapitalAnalysis/template-course-project/workflows/Continuous%20Integration/badge.svg)](https://github.com/HumanCapitalAnalysis/template-course-project/actions)
