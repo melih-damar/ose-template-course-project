@@ -29,7 +29,7 @@ In some cases you might not be able to run parts of your code on  [Travis CI](ht
 
 ```python
 # If we are running on TRAVIS-CI we will simply load a file with existing results.
-if os.environ['TRAVIS']:
+if os.environ.get("TRAVIS"):
   rslt = pkl.load(open('stored_results.pkl', 'br'))
 else:
   rslt = compute_results()
