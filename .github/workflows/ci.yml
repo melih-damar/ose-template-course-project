@@ -15,9 +15,6 @@ jobs:
            environment-file: environment.yml
            python-version: 3.6
            auto-activate-base: false
-    - name: test CI env var
-      shell: bash -l {0}
-      run: python test.py
     - name: execute notebooks
       shell: bash -l {0}
       run: |
