@@ -1,7 +1,7 @@
 import os
 
 
-if os.environ.get("CI") == True:
+if os.environ.get("CI") == "true":
     print("yay")
 else:
     print("nay")
