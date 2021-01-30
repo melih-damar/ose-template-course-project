@@ -21,15 +21,15 @@ Please ensure that a brief description of your project is included in the [READM
 
 ## Reproducibility
 
-To ensure full reproducibility of your project, please try to set up a [Travis CI](https://travis-ci.org) as your continuous integration service. An introductory tutorial for [conda](https://conda.io) and [Travis CI](https://docs.travis-ci.com/) is provided [here](https://github.com/OpenSourceEconomics/ose-template-course-project/blob/master/tutorial_conda_travis.ipynb). While not at all mandatory, setting up a proper continuous integration workflow is an extra credit that can improve the final grade.
+To ensure full reproducibility of your project, please try to set up a [GitHub Actions CI](https://docs.github.com/en/actions) as your continuous integration service. An introductory tutorial for [conda](https://conda.io) and [GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions) is provided [here](https://github.com/OpenSourceEconomics/ose-template-course-project/blob/master/tutorial_conda_actions.ipynb). While not at all mandatory, setting up a proper continuous integration workflow is an extra credit that can improve the final grade.
 
-[![Build Status](https://travis-ci.org/OpenSourceEconomics/ose-template-course-project.svg?branch=master)](https://travis-ci.org/OpenSourceEconomics/ose-template-course-project)
+![Continuous Integration](https://github.com/OpenSourceEconomics/ose-template-course-project/workflows/Continuous%20Integration/badge.svg)
 
-In some cases you might not be able to run parts of your code on  [Travis CI](https://travis-ci.org) as, for example, the computation of results takes multiple hours. In those cases you can add the result in a file to your repository and load it in the notebook. See below for an example code.
+In some cases you might not be able to run parts of your code on  [GitHub Actions CI](https://docs.github.com/en/actions) as, for example, the computation of results takes multiple hours. In those cases you can add the result in a file to your repository and load it in the notebook. See below for an example code.
 
 ```python
-# If we are running on TRAVIS-CI we will simply load a file with existing results.
-if os.environ.get("TRAVIS"):
+# If we are running on GitHub Actions CI we will simply load a file with existing results.
+if os.environ.get("CI") == "true":
   rslt = pkl.load(open('stored_results.pkl', 'br'))
 else:
   rslt = compute_results()
